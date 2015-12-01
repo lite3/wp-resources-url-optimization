@@ -4,10 +4,27 @@ set -e
 
 echo "this is deplywp"
 
+checkenv() {
+    errmsg=""
+    if [[ -z "$SVN_USERNAME"  ]]; then
+        errmsg="please set SVN_USERNAME"
+    fi
+    if [[ -z "$SVN_PASSWORD" ]]; then
+        errmsg="${errmsg}\nplease set SVN_PASSWORD"
+    fi
+    if [[ -z "$SVN_REPOSITORY_URL" ]]; then
+        errmsg="${errmsg}\nplease set SVN_REPOSITORY_URL"
+    fi
+    if [[ -n "$errmsg" ]]; then
+        echo "$errmsg"
+        return 1
+    fi
+}
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 GIT_DIR="$DIR/.."
 TRUNK_DIR="$GIT_DIR/../../svntmp/trunk"
-SVN_REPOSITORY_URL="http://plugins.svn.wordpress.org/wp-resources-url-optimization"
+# SVN_REPOSITORY_URL="http://plugins.svn.wordpress.org/wp-resources-url-optimization"
 SVN_AUTH="--username $SVN_USERNAME --password $SVN_PASSWORD --no-auth-cache"
 
 SVN="/usr/bin/svn"
