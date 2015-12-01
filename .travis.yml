@@ -2,4 +2,4 @@ language: php
 os:
 - linux
 
-script: chmod +x travis-scripts/deploywp.sh && travis-scripts/deploywp.sh
+script: chmod +x deploy2wp/deploy2wp.sh && deploy2wp/deploy2wp.sh
