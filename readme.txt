@@ -3,8 +3,8 @@ Contributors: lite3
 Donate link: https://me.alipay.com/lite3
 Tags: optimization, style, script, resources, plugins, query-string
 Requires at least: 3.0.0
-Tested up to: 4.0
-Stable tag: 1.5.1.1
+Tested up to: 4.4
+Stable tag: 1.5.1.2
 
 WP Resources URL Optimization is a Wordpress plugin optimized browser cache, it will greatly enhance the website page display speed and reduce the pressure of the server to handle static files.
 
@@ -56,6 +56,8 @@ Please modify the original file, not automatically generated files.
 No. The plugin will automatically generate a new files when the file modified. 
 
 == Changelog ==
+= 1.5.1.2 =
+* Tested up to 4.4
 = 1.5.1.1 =
 * Tested up to: 4.0
 = 1.5.1 =
