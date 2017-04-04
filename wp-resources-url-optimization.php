@@ -9,6 +9,7 @@ Description: WP Resources URL Optimization is a Wordpress plugin optimized brows
 Version: 1.6
 Author: litefeel
 Author URI: https://www.litefeel.com/
+Text Domain: wp-resources-url-optimization
 
 Copyright (c) 2011
 Released under the GPL license
