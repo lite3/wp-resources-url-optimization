@@ -1,5 +1,9 @@
 ## Changelog ##
 
+### [1.6.1][1.6.1] ###
+
+* Join translate.wordpress.org
+
 ### [1.6][1.6] ###
 
 * Transfer ownership
@@ -59,4 +63,5 @@
 
 
 
+  [1.6.1]: https://github.com/litefeel/wp-resources-url-optimization/releases/tag/1.6.1
   [1.6]: https://github.com/litefeel/wp-resources-url-optimization/releases/tag/1.6
