@@ -40,7 +40,7 @@ if (!class_exists('WP_Resources_URL_Optimization')) {
 		
 		public function wpruo_init() {
 			if(is_admin()) {
-				load_plugin_textdomain( 'wpresourcesurloptimization', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/');
+				load_plugin_textdomain( 'wpresourcesurloptimization' );
 				add_action('admin_menu', array($this, 'add'));
 				add_filter( 'plugin_action_links', array($this, 'plugin_action_links'), 10, 2 );
 			}else{
