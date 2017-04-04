@@ -1,7 +1,7 @@
 # WP Resources URL Optimization #
 **Contributors:** litefeel  
 **Tags:** optimization, style, script, resources, plugins, query-string  
-**Donate link:** https://www.paypal.me/litefeel
+**Donate link:** https://www.paypal.me/litefeel  
 **Requires at least:** 3.0.0  
 **Tested up to:** 4.7.3  
 **Stable tag:** 1.6  
