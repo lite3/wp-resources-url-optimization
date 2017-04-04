@@ -1,6 +1,6 @@
 ## Changelog ##
 
-### [1.6.1][1.6.1] ###
+### [1.6.2][1.6.2] ###
 
 * Join translate.wordpress.org
 
@@ -63,5 +63,5 @@
 
 
 
-  [1.6.1]: https://github.com/litefeel/wp-resources-url-optimization/releases/tag/1.6.1
+  [1.6.2]: https://github.com/litefeel/wp-resources-url-optimization/releases/tag/1.6.2
   [1.6]: https://github.com/litefeel/wp-resources-url-optimization/releases/tag/1.6
