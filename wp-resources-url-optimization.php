@@ -4,11 +4,11 @@
  */
 /*
 Plugin Name: WP Resources URL Optimization
-Plugin URI: http://www.litefeel.com/wp-resources-url-optimization/
+Plugin URI: https://www.litefeel.com/wp-resources-url-optimization/
 Description: WP Resources URL Optimization is a Wordpress plugin optimized browser cache, it will greatly enhance the website page display speed and reduce the pressure of the server to handle static files.Default wp added after the static files the query string to ensure that the static files are modified immediately after the performance to the browser (front-end), this way there is a drawback: the browser will request the server regardless of whether the file is modified,If the file has been modified it will download the new file, if the file has not been modified http status code 304 is returned to inform the browser reads the local cache. The goal of the plugin: do not have to re-initiate the request to the server, and directly read the browser cache when the file has not been modified.
-Version: 1.5.1.1
-Author: lite3
-Author URI: http://www.litefeel.com/
+Version: 1.6
+Author: litefeel
+Author URI: https://www.litefeel.com/
 
 Copyright (c) 2011
 Released under the GPL license
